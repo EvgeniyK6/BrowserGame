@@ -1,0 +1,17 @@
+﻿@page
+@model BrowserGame.Pages.GameOverModel
+@{
+}
+
+
+@{
+    ViewData["Title"] = "Snake";
+}
+
+<div id="gameover">
+    <h1>Game over!!!</h1>
+    <h2 id="score"></h2>
+    <a asp-page="./Game">Start over again</a>
+</div>
+
+<script type="module" src="~/js/gameOver.js"></script>

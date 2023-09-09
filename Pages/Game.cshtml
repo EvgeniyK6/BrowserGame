@@ -1,0 +1,11 @@
+﻿@page
+@model BrowserGame.Pages.GameModel
+@{
+    ViewData["Title"] = "Game in progress";
+}
+
+<div id="mainFrame">
+    <div id="timer-score"></div>
+</div>
+
+<script type="module" src="~/js/game.js" asp-append-version="true"></script>
